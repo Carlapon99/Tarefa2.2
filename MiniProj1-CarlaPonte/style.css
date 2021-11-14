@@ -1,0 +1,48 @@
+html {
+	height: 130%;
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	margin-top: 10px;
+	margin:0;
+	background-color: black;
+	color: white;
+	text-align: center;
+
+}
+
+.fixed_footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+#f {
+	max-height: 50px;
+	max-width: 50px;
+	float:right;
+	vertical-align: center;
+}
+#i {
+  max-height: 50px;
+  max-width: 50px;
+  float:right;
+  vertical-align: center;
+}
+#g {
+  max-height: 50px;
+  max-width: 50px;
+  float:right;
+  vertical-align: center;
+}
+#t {
+  max-height: 50px;
+  max-width: 50px;
+  float:right;
+  vertical-align: center;
+}
+
