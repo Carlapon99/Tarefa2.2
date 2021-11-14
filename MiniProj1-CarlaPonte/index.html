@@ -1,0 +1,55 @@
+<!DOCTYPE html>   
+<html ng-app="myApp">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <header>
+    <script type="text/ng-template" id="pages/quemsoueu.html">
+      <h1>Quem sou eu?</h1>
+      <h3>{{message}}</h3>
+    </script>
+    <script type="text/ng-template" id="pages/oquefaco.html">
+      <h1>O que faço?</h1>
+      <h3>{{message}}</h3>
+      {{image}}
+    </script>
+    <script type="text/ng-template" id="pages/hobbies.html">
+      <h1>Hobbies</h1>
+      <h3>{{message}}</h3>
+    </script>
+    <ul>
+    <li><a href="#/">Quem sou eu?</a></li>
+    <li><a href="#/oquefaco">O que faço?</a></li>
+    <li><a href="#/hobbies">Hobbies</a></li>
+   </ul> 
+
+  </header>
+  
+  <body>
+    
+    
+    <div ng-view = "main"> 
+
+
+
+
+    </div>
+  </body>
+  
+  <footer class = "footer">
+  <div class ="fixed_footer">
+    <img id="i" class="Image" src="./Images/instagram.png" alt="Instagram image">
+    <img id="f" class="Image" src="./Images/facebook.png" alt="Facebook image">
+    <img id="g" class="Image" src="./Images/google.png" alt="Google image">
+    <img id="t" class="Image" src="./Images/twitter.jpeg" alt="Twitter image">
+
+  <p>Carla Ponte - 2021</p>
+
+</div>
+</footer>
+  
+</html>
